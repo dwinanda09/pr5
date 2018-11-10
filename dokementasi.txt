@@ -1,0 +1,38 @@
+Terdapat potongan kode while loop.
+Kode tersebut menampilkan menu utama yang meminta input user dengan pemanggilan read. Setelah input diterima,
+program akan menjalankan conditional case dengan input sebagai berikut:
+
+1 = akan memanggil fungsi systemInfo. fungsi ini berfungsi untuk menulis username, OS yang digunakan,
+uptime dari system yang dijalankan, dan juga hostname dari system
+
+2 = akan memanggil fungsi hwList. Fungsi ini berfungsi
+untuk menulis jenis dari machine hardware dan
+juga menulis list dari hardware yang tesambung.
+
+3 = akan memanggil fungsi memory. Fungsi ini akan menulis
+seberapa besar memory pada sistem dan juga seberapa banyak
+memory yang available atau free untuk digunakan. Fungsi ini juga menulis
+statistik dari memory pada sistem dan juga menuliskan 10 proses yang 
+paling banyak menggunakan kinerja CPU.
+
+4 = akan memanggil fungsi hwDetail. fungsi ini akan dejelaskan di bawah
+
+5 = akan menulis kata "Bye Bye...." dan juga akan exit dari program.
+
+While loop akan terus berjalan sampai user
+meamsukkan input 5 untuk exit dari program.
+
+Pemanggilan fungsi hwDetail akan menunjukkan sub menu baru yang bernama menu hardware detail.
+Pada fungsi ini juga user diminta untuk memasukkan input.
+User akan diminta untuk memasukkan input 1 - 3. Jika
+tidak memasukkan input yang benar, akan dimunculkan kembali
+sub menu hardware detail ini. 
+
+Input yang diminta sebagai berikut :
+
+1 = akan memanggil fungsi CPU Detail. fungsi ini akan
+menulis model dari cpu, frequency dari cpu dan juga cache dari cpu
+
+2 = akan memanggil fungsi blkDetail. fungsi ini akan
+memanggil lsblk pada sistem. dimana lsblk akan menuliskan
+space yang terpasang system
